@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Laconic;
+    src: url(laconic.otf);
+}
+
+h2 {
+    color: #53619b;
+    font-family: Laconic;
+    font-size: 32px;
+}
+
+h3 {
+    color: #53619b;
+    font-family: Laconic;
+    font-size: 22px;
+}
+
+.foto {
+    align-items: center;
+    background: linear-gradient(to right, #ced2e9, #53619b);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    padding-left: 20px;
+}
+
+.foto .img {
+    width: 150px;
+}
+
+.datos {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.datos .d {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.datos .cont {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-evenly;
+    padding-left: 80px;
+}
+
+.contacto {
+    color: #3e435c;
+    font-family: Laconic;
+    font-size: 22px;
+}
+
+.texto {
+    font-family: 'Georama', sans-serif;
+    font-size: 16px;
+}
+
+.parrafos .encolumnado {
+    column-count: 3;
+    font-family: 'Georama', sans-serif;
+    margin: 30px;
+}
+
+aside {
+    background-color: lightgray;
+    float: right;
+    font-family: 'Georama', sans-serif;
+    font-style: italic;
+    margin: 0 35px 0 20px;
+    padding: 0 15px 0 15px;
+    width: 30%;
+}
+
