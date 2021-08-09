@@ -1,0 +1,48 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.flex1 {
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 600px;
+}
+
+.caja {
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
+}
+
+.caja1 {
+    background-color: red;
+}
+
+.caja1:hover {
+    background-color: #ff8888ff;
+}
+
+.caja2 {
+    background-color: blue;
+}
+
+.caja2:hover {
+    background-color: #8888ffff;
+}
+
+.caja3 {
+    background-color: green;
+}
+
+.caja3:hover {
+    background-color: #88ff88ff;
+}
