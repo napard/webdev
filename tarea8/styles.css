@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(178, 239, 215);
+    color: black;
+}
+
+.accordion-button {
+    background-color: rgb(138, 209, 185);
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 2px rgb(173, 91, 144);
+}
+
+.my-col {
+    border: 1px solid lightgray;
+    min-width: 80px;
+    padding: 4px;
+}
+
+.my-col2 {
+    min-width: 80px;
+    padding: 4px;
+}
+
+.my-col2:nth-child(1) {
+    border-right: 1px solid white;
+}
+
+.my-col2:nth-child(2) {
+    border-right: 1px solid white;
+}
+
+.my-col3 {
+    border-right: 1px solid white;
+    padding-top: 5px;
+}
+
+.texts {
+    background-color: rgb(173, 91, 144);
+    color: white;
+}
+
+.col-6 {
+    margin-left: -0.7rem;
+}
+
+#root-row1 {
+    border: 2px solid rgb(138, 209, 185);
+    padding: 10px 0 10px 0;
+}
+
+#root-row2 {
+    border: 2px solid rgb(138, 209, 185);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: White;
+}
+
+.navbar-brand:hover {
+    color: White;
+    text-shadow: 1px 1px 2px orange;
+}
+
+.navbar-brand:focus {
+    color: White;
+    text-shadow: 1px 1px 2px orange;
+}
+
+.nav-link {
+    color: White;
+}
+
+.nav-link:hover {
+    color: White;
+    text-shadow: 1px 1px 2px orange;
+}
+
+.nav-link:focus {
+    color: White;
+    text-shadow: 1px 1px 2px orange;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-toggler:focus {
+    border: 1px solid white;
+    outline: transparent;
+    box-shadow: 0 0 10px orange;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 10px orange;
+}
+
+@media screen and (max-width: 768px) {
+    #root-container {
+        max-width: 100%;
+    }
+
+    #root-row1 {
+        padding: 10px 10px 10px 0;
+    }
+
+    .col-3 {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .col-6 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .texts {
+        border-left: 10px solid white;
+        border-top: 10px solid white;
+    }
+
+    #acordeon1 {
+        margin-right: -12px;
+    }
+
+    #acordeon2 {
+        margin-right: -12px;
+    }
+}
+

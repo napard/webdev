@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/5cf446328a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(173, 91, 144); color: white; margin-bottom: 10px;">
+    <div class="container-fluid">
+      <div>
+        <i class="fab fa-bootstrap" style="color: white; margin-right: 10px;"></i>
+        <a class="navbar-brand" href="#">Prueba de Bootstrap</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fas fa-bars" style="color: white; margin: 5px 0 0 0;"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Opciones
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Opción 1</a></li>
+              <li><a class="dropdown-item" href="#">Opción 2</a></li>
+              <li><a class="dropdown-item" href="#">Opción 3</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Opción 4</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar">
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container" id="root-container">
+    <div class="row" id="root-row1">
+      <div class="col-3">
+        <div class="accordion" id="acordeon1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Acordeón #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#acordeon1">
+              <div class="accordion-body">
+                <div class="col">
+                  <div class="row" style="border: 2px solid orange;">
+                    <div class="col-4 my-col">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores autem dolor quas maiores.
+                    </div>
+                    <div class="col-4 my-col">
+                      In dolor eveniet debitis perspiciatis earum voluptatem minima?
+                    </div>
+                    <div class="col-4 my-col">
+                      Voluptas nobis quidem officia nisi est in beatae doloribus aspernatur accusamus voluptate?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="accordion" id="acordeon2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                Acordeón #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+              data-bs-parent="#acordeon2">
+              <div class="accordion-body">
+                <div class="col">
+                  <div class="row" style="border: 2px solid orange;">
+                    <div class="col-4 my-col">
+                      Ullam dolorem enim repellat dicta quos rerum ipsam labore aliquam minima reprehenderit sunt eius,
+                      illo, amet,
+                      commodi reiciendis ea.
+                    </div>
+                    <div class="col-4 my-col">
+                      Corporis sequi distinctio officiis quam placeat suscipit illo reprehenderit, impedit, ipsam modi
+                      ut, omnis enim amet?
+                    </div>
+                    <div class="col-4 my-col">
+                      Minima fugit sequi labore dolores voluptatem? Labore, tenetur ducimus? Ipsam libero recusandae
+                      facilis!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 texts">
+        <div class="row">
+          <div class="col my-col2">
+            a
+          </div>
+          <div class="col my-col2">
+            b
+          </div>
+          <div class="col my-col2">
+            c
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="root-row2">
+      <div class="col-12 col-md-1 my-col3" style="background-color: orange;">
+        1
+      </div>
+      <div class="col-12 col-md-1 my-col3" style="background-color: indianred;">
+        2
+      </div>
+      <div class="col-12 col-md-3 my-col3" style="background-color: peru;">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Filtrar</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Producto" aria-label="Username"
+              aria-describedby="basic-addon1">
+            <span class="input-group-text" id="basic-addon1" style="padding: 0;">
+              <button class="btn"><i class="fas fa-backspace"></i></button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-7 my-col3" style="background-color: rgb(173, 91, 144);">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Producto</th>
+              <th scope="col">Tags</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Prod1</td>
+              <td>#prod1</td>
+              <td>$10,00</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Prod2</td>
+              <td>#prod2</td>
+              <td>$15,00</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Prod3</td>
+              <td>#prod3</td>
+              <td>$30,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
